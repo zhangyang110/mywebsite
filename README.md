@@ -1,6 +1,7 @@
 ## mywebsite
 
 ### 架构
+- 整体架构
     - react 框架 create-react-app脚手架
     - Node 服务端  express 框架 --搭建server
     - mongodb 数据库
