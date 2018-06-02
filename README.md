@@ -28,7 +28,15 @@
 - 我的列表数据是放在redux 中的  当列表组件加载的时候会获取一次 列表数据 ，每次上传图片后也会重新获取一次列表数据保证列表的最新状态
 - redux中的num 是一开始用来调试redux 的东西。
 
-
+###开启项目
+- 前提
+    - 电脑安装 node环境/mongodb/数据库界面端（robot 3）
+    - git clone https://github.com/zhangyang110/mywebsite.git
+    - yarn install   安装依赖
+    - node run service 开启服务
+    - sudo mongod 开启服务器 默认端口27017  （打不开的自行百度）
+    - 进入robot 3 创建imooc 数据库
+    - 以上  前后联调
 ### 联系我
 - 这是我用来娱乐的demo  写的不规范
 - 如果，额。。qq：：：7981994200
