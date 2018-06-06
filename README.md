@@ -33,11 +33,12 @@
     - 电脑安装 node环境/mongodb/数据库界面端（robot 3）
     - git clone https://github.com/zhangyang110/mywebsite.git
     - yarn install   安装依赖
-    - node run service 开启服务
+    - yarn run start
     - sudo mongod 开启服务器 默认端口27017  （打不开的自行百度）
+    - node service 开启服务
     - 进入robot 3 创建imooc 数据库
     - 以上  前后联调
 ### 联系我
-- 这是我用来娱乐的demo  写的不规范
+-  demo写的不规范
 - 如果，额。。qq：：：7981994200
 - 以上～
