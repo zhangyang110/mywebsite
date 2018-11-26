@@ -28,7 +28,7 @@
 - 我的列表数据是放在redux 中的  当列表组件加载的时候会获取一次 列表数据 ，每次上传图片后也会重新获取一次列表数据保证列表的最新状态
 - redux中的num 是一开始用来调试redux 的东西。
 
-###开启项目
+### 开启项目
 - 前提
     - 电脑安装 node环境/mongodb/数据库界面端（robot 3）
     - git clone https://github.com/zhangyang110/mywebsite.git
