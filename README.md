@@ -1,5 +1,5 @@
 ## mywebsite
-
+mogodb + react+ node express
 ### 架构
 - 整体架构
     - react 框架 create-react-app脚手架
@@ -38,7 +38,4 @@
     - node service 开启服务
     - 进入robot 3 创建imooc 数据库
     - 以上  前后联调
-### 联系我
--  demo写的不规范
-- 如果，额。。qq：：：7981994200
-- 以上～
+

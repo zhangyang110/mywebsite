@@ -4,7 +4,6 @@ import {Tabs} from 'antd';
 import PictureList from './PictureList'
 import PictureUpload from "./PictureUpload";
 import {urlPre} from "../../common";
-import {message} from "antd";
 
 const TabPane = Tabs.TabPane;
 
@@ -38,7 +37,7 @@ class Picture extends React.Component {
                 {this.props.num}
                 <Tabs>
                     <TabPane tab="Picture List" key="1">
-                        <PictureList data={eval(this.props.pictureList)}/>
+                        {/*<PictureList data={this.props.pictureList}/>*/}
                     </TabPane>
 
                     <TabPane tab="Picture Upload" key="2">
@@ -51,7 +50,7 @@ class Picture extends React.Component {
 
 }
 
-const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = (state) => {
     return {
         num: state.countReducer.num,
         pictureList: state.pictureListReducer.allPictures
